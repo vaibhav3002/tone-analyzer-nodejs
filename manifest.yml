@@ -5,9 +5,9 @@ declared-services:
     plan: lite
 applications:
 - services:
-  - my-tone-analyzer-service
-  name: tone-analyzer-demo
+  - speech-tone-analyser
+  name: speech-tone-analyser
   command: npm start
   path: .
-  instances: 2
+  instances: 1
   memory: 256MB
